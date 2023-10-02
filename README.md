@@ -11,3 +11,5 @@ stores my data
 - **DynamoDB Database**: Managed AWS DynamoDB to store and retrieve exam questions, correct answers, and user comments efficiently.
 
 - **Serverless Architecture**: Implemented serverless AWS Lambda functions for CRUD operations on DynamoDB, optimizing resource usage and cost-effectiveness.
+
+![image](https://github.com/Cliu5132/data-json/assets/52264917/888a96f4-ba15-4d30-9f72-bd977821f783)
