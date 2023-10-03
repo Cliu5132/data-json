@@ -1,0 +1,29 @@
+[
+  {
+     "id": 860,
+     "single": true,
+     "question": "A company has a customer relationship management (CRM) application that stores data in an Amazon RDS DB instance that runs Microsoft SQL Server. The company's IT staff has administrative access to the database. The database contains sensitive data. The company wants to ensure that the data is not accessible to the IT staff and that only authorized personnel can view the data. What should a solutions architect do to secure the data?",
+     "choices": [
+        "A. Use client-side encryption with an Amazon RDS managed key.",
+        "B. Use client-side encryption with an AWS Key Management Service (AWS KMS) customer managed key.",
+        "C. Use Amazon RDS encryption with an AWS Key Management Service (AWS KMS) default encryption key.",
+        "D. Use Amazon RDS encryption with an AWS Key Management Service (AWS KMS) customer managed key."
+     ],
+     "answer": "D",
+     "comment": "What is customer managed key?"
+  },
+  {
+     "id": 873,
+     "single": false,
+     "question": "A company needs to create an Amazon Elastic Kubernetes Service (Amazon EKS) cluster to host a digital media streaming application. The EKS cluster will use a managed node group that is backed by Amazon Elastic Block Store (Amazon EBS) volumes for storage. The company must encrypt all data at rest by using a customer master key (CMK that is stored in AWS Key Management Service (AWS KMS). Which combination of actions will meet this requirement with the LEAST amount of operational overhead? (Select TWO)",
+     "choices": [
+        "A. Use a Kubernetes plugin to perform data encryption by using the CMK.",
+        "B. Create the EKS cluster. Associate an IAM role that has a policy that grants permission to the CMK.",
+        "C. After creation of the EKS cluster, locate the EBS volumes and turn on encryption by using the CMK.",
+        "D. Turn on EBS encryption by default in the AWS Region where the EKS cluster will be created. Select the CMK as the default key.",
+        "E. Use envelope encryption with the CMK to create the EKS cluster. Store the CMK as a secret for access by using the AWS encryption provider."
+     ],
+     "answer": "BE",
+     "comment": "CMK & Envelope Encryption"
+  }
+]

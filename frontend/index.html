@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Quiz</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz-container">
+        <div class="quiz-header">
+            <label for="quiz-selector">Select Quiz:</label>
+            <select class="quiz-selector" id="quiz-selector">
+                <!-- Dynamically populate the dropdown options using JavaScript -->
+            </select>
+        </div>
+        <!-- quiz -->
+        <div class="quiz-question">
+            <span id="question"></span>
+        </div>
+        <!-- choices -->
+        <div class="quiz-choices">
+            <ul id="choices"></ul>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button id="prev-quiz">Prev Quiz</button>
+            <button id="next-quiz">Next Quiz</button>
+        </div>
+        <div class="comment-container">
+            <span id="comment"></span>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
