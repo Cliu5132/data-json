@@ -1,6 +1,10 @@
 # data-json
 stores my data
 
+https://aws-saa.mrcongliu.com/
+
+s3 static website hosting -> cloudfront -> route53
+
 ## Features:
 - **Web Scraping**: Developed a custom web scraper to collect AWS certification exam questions and answers from multiple online sources.
 
